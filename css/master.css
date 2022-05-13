@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 18px/1.5 Arial, sans-serif;
+  background: #f4f4f4;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  padding-top: 30px;
+  min-height: 70px;
+  background: #9c1741;
+  color: white;
+  border-bottom: #e8491d 3px solid;
+}
+header nav ul li {
+  display: inline;
+  float: left;
+  padding: 0 20px 0 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+#branding {
+float:left;
+}
+header nav {
+  float:right;
+}
+#showcase {
+  min-height: 400px;
+  background: url('../img/big-ben.jpg') no-repeat -200px -300px;
+  text-align: center;
+  color: maroon;
+}
+#showcase h2 {
+  font-size: 50px;
+  margin: 10px 0 30px 0;
+}
+#showcase p {
+  font-size: 25px;
+  font-weight: bold;
+}
